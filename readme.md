@@ -4,9 +4,7 @@
 
 Below is the information provided by the author of the template.</i>
 
-<br><br>
-
-
+<br>
 
 ==================================================================================================
 
