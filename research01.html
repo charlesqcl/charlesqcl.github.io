@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>AI, City Form and Land Surface Temperature.</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+
+</head>
+
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+            
+        <div class="header-logo">
+            <a class="site-logo" href="index.html"><img src="images/logo.png" alt="Homepage"></a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li><a href="index.html#home" title="home">Home</a></li>
+                <li><a href="index.html#about" title="about">About</a></li>
+                <li class="current"><a href="index.html#works" title="works">Works</a></li>
+                <li><a href="index.html#blog" title="blog">Life</a></li>
+                <li><a href="index.html#contact" title="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <article class="blog-single">
+
+        <!-- page header/blog hero
+        ================================================== -->
+        <div class="page-header page-header--single page-hero">
+        
+            <div class="row page-header__content narrow">
+                <article class="col-full">
+                    <div class="page-header__info">
+                        <div class="page-header__cat">
+                            <a>Journal Paper</a>
+                        </div>
+                    </div>
+                    <h1 class="page-header__title">
+                        <a>
+                            AI, City Form and Land Surface Temperature.
+                        </a>
+                    </h1>
+                    <ul class="page-header__meta">
+                        <li class="date">Oct, 2023</li>
+                        <li class="author">
+                            By
+                            <span>Charles Q.C. LI</span>
+                        </li>
+                    </ul>
+                    
+                </article>
+            </div>
+    
+        </div> <!-- end page-header -->
+
+        <div class="row blog-content">
+            <div class="col-full blog-content__main">
+
+                <h2>[Prediction of summer daytime land surface temperature in urban environments based on machine learning.]</h2><br>
+
+                <p class="lead">Key Words: Land surface temperature; Urban form; Generative adversarial networks</p>
+
+                <p><a href="https://www.sciencedirect.com/science/article/pii/S2210670723003438" target="_blank" style="color: rgba(33, 33, 255, 0.803)"> <b>[FULL ARTICLE]</b> Qianchuan Li, Hao Zheng,
+                    Prediction of summer daytime land surface temperature in urban environments based on machine learning,
+                    Sustainable Cities and Society,
+                    Volume 97,
+                    2023,
+                    104732,
+                    ISSN 2210-6707,
+                    <u>https://doi.org/10.1016/j.scs.2023.104732.</u>
+                </a></p>
+
+                <p style="color: rgba(147, 147, 255, 0.803)"><i>This post might come from a pre-copy-editing or a post-print author produced file 
+                    of an article accepted for publication. For the efinitive publisher-authenticated version, 
+                    please refer to the full article link.</i>
+                </p>
+
+                <h3>Highlights</h3>
+                <blockquote><p><i>In the context of global warming and extreme heat phenomenon, this study provides a tool for future professionals 
+                in designing sustainable city forms. </i></p></blockquote>
+
+                <h3>Background</h3>
+
+                <p>Land Surface Temperature (LST) is an important indicator of urban heat environments and can be 
+                    largely influenced by the morphology factors of cities. However, previous studies mainly focus on 
+                    large-scale and coarse-grained forecast modeling, making it hard to inform architects and urban 
+                    designers without the advantage of quick, fine-grained prediction and visualization.
+                </p>
+
+                <h3>Methodology</h3>
+
+                <p>The paper uses Generative Adversarial Networks (GAN) to address this gap by proposing 
+                    a prediction model of city plans (Fig.1 - A) and corresponding LST heat maps (Fig.1 - B). The research framework is as Fig.2.
+                </p>
+
+            
+                <div style="text-align: center;">
+                    <img src="images/portfolio/gan01.jpg" width="66%" alt="">
+                    <div style='text-align: center;'><b>Fig. 1.</b> A: input map; B: output LST map.</div><br>
+                    <img src="images/portfolio/gan02.jpeg" width="66%" alt="">
+                    <div style='text-align: center;'><b>Fig. 2.</b> Research framework.</div><br>
+                </div>
+
+                <h3>Data</h3>
+
+                <p>Taking New York City as an example, we use the Light Detection and Ranging (LiDAR) data,
+                     Landsat Surface Temperature data, and other relevant data to construct the built environmental dataset (Fig.3) 
+                     and the LST dataset (Fig.4).
+                </p>
+
+                <div style="text-align: center;">
+                    <img src="images/portfolio/gan03.jpg" width="66%" alt="">
+                    <div style='text-align: center;'><b>Fig. 3.</b> Processing of built environmental datasets.</div><br>
+                    <img src="images/portfolio/gan04.jpg" width="66%" alt="">
+                    <div style='text-align: center;'><b>Fig. 4.</b> Processing of LST datasets.</div><br>
+                </div>
+
+                <h3>GAN Training</h3>
+
+                <p>The GAN architecture is as Fig.5. We use the data to build seven hundred image pairs as training/test sets (Fig.6) to train/test the model of 
+                    predicting LST distribution. As the training continues, it can be obersved that the accuracy of our model gradually increases (Fig.7).
+                </p>
+
+                <div style="text-align: center;">
+                    <img src="images/portfolio/gan05.jpg" width="88%" alt="">
+                    <div style='text-align: center;'><b>Fig. 5.</b> The basic principles of GAN.</div><br>
+                    <img src="images/portfolio/gan06.jpg" width="66%" alt="">
+                    <div style='text-align: center;'><b>Fig. 6.</b> A: Sample input/output images; B: Training/test set distribution.</div><br>
+                    <img src="images/portfolio/gan07.jpg" width="66%" alt="">
+                    <div style='text-align: center;'><b>Fig. 7.</b> A: Loss values of the generator and the discriminator images; B: Generated images of different training epochs.</div><br>
+                </div>
+
+                <h3>Accuracy Analysis</h3>
+
+                <p>We utilize both qualitative and quantitative methods to test our models. For qualitative methods (Fig.8), we visually compare the prediction results
+                    of both training and test sets. For quantitative measures (Fig.9-10), we use five metrics to evaluate each model and find epoch 140 performs the best.
+                    Eventually, we select epoch 140 as our final model which can generate LST maps relatively quickly and accurately with the input of city plans.
+                </p>
+
+                <div style="text-align: center;">
+                    <img src="images/portfolio/gan08.jpg" width="96%" alt="">
+                    <div style='text-align: center;'><b>Fig. 8.</b>  A: Re-generated images of the training set using different models; B: Re-generated images of the test set using different models.</div><br>
+                    <img src="images/portfolio/gan09.jpg" width="66%" alt="">
+                    <div style='text-align: center;'><b>Fig. 9.</b> Line plot of five metrics based on the training set.</div><br>
+                    <img src="images/portfolio/gan10.jpg" width="66%" alt="">
+                    <div style='text-align: center;'><b>Fig. 10.</b> Line plot of five metrics based on the test set.</div><br>
+                </div>
+
+                <h3>AI-aided city design</h3>
+
+                <p>After model selection, different scenarios are simulated to test the application of the model in predicting the environmental impacts 
+                    of plan modifications on land surface temperature. Scenarios include green space, building massing, road infrastructure and complex scenario.
+                </p>
+
+                <h3>Green space scenarios</h3>
+                <p><b>Q1:</b> To lower LST levels, Where to add green spaces with a fixed greening growth rate and specific design composition? (Fig.11- a & d)<br>
+                    <b>A1:</b> For these two samples, adopting a layout strategy of vertically 
+                    scattering or concentrating may help lower LST levels.
+                </p>
+
+                <p><b>Q2:</b> With fixed location/layout and specific design composition, what is a suitable growth rate of urban greening in light of LST? (Fig.11- b & e)<br>
+                    <b>A2:</b> For these two samples, a growth rate of 1% is suitable for urban greening that may help reduce LST.
+                </p>
+
+                <p><b>Q3:</b> With fixed location/layout and growth rate of greening, how to optimize the design composition to achieve a better LST performance? (Fig.11- c & f)<br>
+                    <b>A3:</b> For these two samples, setting grassland:tree canopy=2:8 can aid in lowering LST levels.
+                </p>
+
+                <div style="text-align: center;">
+                    <img src="images/portfolio/gan11.jpg" width="96%" alt="">
+                    <div style='text-align: center;'><b>Fig. 11.</b>  Green space scenarios.</div><br>
+                </div>
+
+
+                <h3>Building Massing scenarios</h3>
+                <p><b>Q1:</b> In consideration of LST levels, how to optimize the planar arrangement of building blocks with a fixed coverage ratio and height limit? (Fig.12- a & d)<br>
+                    <b>A1:</b> For these two samples, a chessboard-like or mixed block form might be effective in minimizing LST impacts.
+                </p>
+
+                <p><b>Q2:</b> With a settled height limit and planar form, what is a suitable building coverage ratio to reduce the impacts of the future intervention on LST? (Fig.12- b & e)<br>
+                    <b>A2:</b> For these two samples, a BCR of 0.6 can help minimize the influences on LST.
+                </p>
+
+                <p><b>Q3:</b> How to set the optimal height control of different buildings for a better LST performance with specified coverage and planar form? (Fig.12- c & f; Fig.13- a & d)<br>
+                    <b>A3:</b> For these two samples, arranging high volumes on a certain side of the sites may help reduce LST levels or impacts.
+                </p>
+
+                <div style="text-align: center;">
+                    <img src="images/portfolio/gan12.jpg" width="96%" alt="">
+                    <div style='text-align: center;'><b>Fig. 12.</b> Building massing scenarios.</div><br>
+                </div>
+
+
+                <h3>Road Infrastructure scenarios</h3>
+                <p><b>Q1:</b> Considering the impacts on LST, how to increase/reduce road width while maintaining the original grid density? (Fig.13- b & e)<br>
+                    <b>A1:</b> For these two samples, reducing road width may aid in lowering LST.
+                </p>
+
+                <p><b>Q2:</b> How to rearrange road grids to lower the impacts of the new plan on local LST levels? (Fig.13- c & f)<br>
+                    <b>A2:</b> For these two samples, both increasing and reducing grid density can help optimize LST impacts.
+                </p>
+
+                <div style="text-align: center;">
+                    <img src="images/portfolio/gan13.jpg" width="96%" alt="">
+                    <div style='text-align: center;'><b>Fig. 13.</b> Road infrastructure scenarios.</div><br>
+                </div>
+
+                <h3>A complex scenario</h3>
+
+                <p>
+                    It can be observed from Fig.14 that through adding scattered or centralized green spaces, changing 
+                    compact blocks to loosely arranged ones with courtyards, raising the height of certain building 
+                    groups, and reducing road width/density of certain areas, partial LST levels can decrease significantly 
+                    by around 3.7% to 6.6% while the overall LST level may drop by about 2.5%.
+                </p>
+
+                <div style="text-align: center;">
+                    <img src="images/portfolio/gan14.jpg" width="96%" alt="">
+                    <div style='text-align: center;'><b>Fig. 14.</b> A complex scenario.</div><br>
+                </div>
+
+                <h3>Conclusion</h3>
+
+                <p>
+                    In the context of global warming and extreme heat phenomenon, this study provides a tool for future professionals 
+                    in designing sustainable city forms. Through our experiment, we have constructed and testified a GAN model connecting 
+                    built environment features to the summer daytime land surface temperature in short periods.
+                </p>
+
+                <blockquote><p>The cooling effect on LST can be brought by scattered or concentrated urban green spaces, loosely-arranged building 
+                forms, less building coverage ratio, and fewer road surface exposures. </p></blockquote>
+
+
+                <h3>Limitations & Future Works</h3>
+
+                <p>
+                    1. The main aim of this study is not to summarize universal guidance on designing the environment to lower LST but to present
+                     an AI-based, interactive methodology in LST prediction and design optimization. Therefore, the LST reduction methods concluded 
+                     from scenario simulation cannot be generalized at this time.<br><br>
+                     
+                    2. Various non-design factors such as solar radiation, cloud cover, wind, and humidity can influence LST from the perspective of 
+                    climate science. Considering the research aim, including these factors may cause the model less intuitive for designers to use. But 
+                    future studies could compare or connect this paper to other research that utilizes climate-based metrics as explanatory factors of LST.<br><br>
+
+                    3. At the same time, as the goal of our study is not to develop a faultless GAN model that can perform better than other state-of-the-art models but
+                     to showcase the application of GAN in predicting LST and link the application to the field of architectural and urban design practices, we did not 
+                     include any other models for comparison.<br><br>
+
+                    4. Moreover, the research did not include any comprehensive model-tuning process, cross-validation, or random initialization to refine the model to 
+                    perfection. However, based on the work showcasing the power of generative AI in informing designers done by this paper, future research needs to 
+                    pay attention to improving the accuracy of relevant models through comprehensive evaluation and optimization.<br><br>
+
+                    5. In addition, due to the limitation of data availability, the study did not highlight the longitudinal or even real-time features of LST datasets. 
+                    We have tried our best to gather high-quality LST data with little cloud cover that can be utilized to serve our research aim but could only acquire 
+                    five maps at discrete time stamps to represent summer months. <br><br>
+
+                    6. For future studies around LST and built environment, apart from continuing to explore the scope provided by this paper, training machine learning 
+                    algorithms in multi-dimensions may help draw conclusions on how urban morphology relates to LST. However, despite the drawbacks above, the general
+                     methodology has potential universality since this study essentially focuses on fitting GAN models to connect human-constructed environmental features 
+                     with naturally observed data on a fine scale.
+                </p>
+
+                <p class="blog-content__tags">
+                    <span>Post Tags</span>
+
+                    <span class="blog-content__tag-list">
+                        <a>Land surface temperature</a>
+                        <a>Urban form</a>
+                        <a>Generative adversarial networks</a>
+                    </span>
+
+                </p>
+
+                <div class="blog-content__pagenav">
+                    <div class="blog-content__nav">
+
+                        <div class="blog-content__next">
+                            <a href="research02.html" rel="next">
+                                <span>Next Project</span>
+                                Urban Design and Travel Behaviors. 
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="blog-content__all">
+                        <a href="index.html#works" class="btn btn--primary">
+                            All Projects
+                        </a>
+                    </div>
+                </div>
+
+            </div><!-- end blog-content__main -->
+        </div> <!-- end blog-content -->
+
+    </article>
+
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full">
+
+                <div class="footer-logo">
+                    <a class="smoothscroll footer-site-logo" href="#top"><img src="images/logo.png" alt="Homepage"></a>
+                </div>
+
+                <ul class="footer-social">
+                    <li><a href="https://scholar.google.com/citations?user=MIyc2LsAAAAJ&hl=en" target="_blank">
+                        <i class="im im-chrome" aria-hidden="true"></i>
+                        <span>GScholar</span>
+                    </a></li>
+                    <li><a href="https://www.researchgate.net/profile/Charles-Li-25" target="_blank">
+                        <i class="im im-database" aria-hidden="true"></i>
+                        <span>ResearchGate</span>
+                    </a></li>
+                    <li><a href="https://orcid.org/0009-0005-9394-7993" target="_blank">
+                        <i class="im im-id-card" aria-hidden="true"></i>
+                        <span>ORCID</span>
+                    </a></li>
+                    <li><a href="https://github.com/charlesqcl" target="_blank">
+                        <i class="im im-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                    </a></li>
+
+                </ul>
+                    
+            </div>
+        </div>
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Qianchuan Li 2023</span> 
+                    <span><a href="https://www.styleshout.com/">styleshout</a></span>	
+                </div>
+
+                <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+    
+    
+        <div id="preloader"> 
+            <div id="loader"></div>
+        </div>
+    
+    
+        <!-- Java Script
+        ================================================== -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+</body>
+
+</html>
