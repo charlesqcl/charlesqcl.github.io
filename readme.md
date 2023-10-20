@@ -2,8 +2,10 @@
 
 <i>I built it based on a free template HOLA from Styleshout.
 
-See the information below.</i>
+Below is the information provided by the author of the template.</i>
 
+<br><br>
+<br><br>
 
 
 
