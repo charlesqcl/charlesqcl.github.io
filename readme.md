@@ -1,8 +1,10 @@
-My Personal Website
+<h1>My Personal Website</h1>
 
-I built it based on a free template HOLA from Styleshout.
+<i>I built it based on a free template HOLA from Styleshout.
 
-See the information below.
+See the information below.</i>
+
+
 
 
 ==================================================================================================
