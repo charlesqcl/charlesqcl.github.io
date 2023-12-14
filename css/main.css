@@ -2354,7 +2354,7 @@ html.no-csstransitions .home-content__main {
 
 .s-works {
     background-color: white;
-    background-image: url("../images/skill-bg.png");
+    background-image: url("../images/skill-bg.jpg");
     background-repeat: no-repeat;
     background-position: top, top;
     background-size: 2316px, 1000px;
@@ -2669,7 +2669,7 @@ html.no-csstransitions .home-content__main {
 
 .s-testimonials {
     background-color: none;
-    background-image: url("../images/skill-bg.png");
+    background-image: url("../images/skill-bg.jpg");
     background-repeat: no-repeat;
     background-position: top, top;
     background-size: 2116px, 3000px;
@@ -3100,7 +3100,7 @@ html.no-csstransitions .home-content__main {
 
 .s-contact {
     background-color: #ffffff;
-    background-image: url("../images/contact-bg.png");
+    background-image: url("../images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-size: 2000px, 5000px;
     background-position: bottom, top;
