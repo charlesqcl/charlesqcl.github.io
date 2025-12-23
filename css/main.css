@@ -1731,7 +1731,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: table;
 }
 
-.s-home .shadow-overlay {
+/* .s-home .shadow-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -1742,9 +1742,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
-}
+} */
 
-.s-home .overlay {
+/* .s-home .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -1752,11 +1752,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 100%;
     opacity: .5;
     background-color: #111111;
-}
+} */
 
-.no-js .s-home {
+/* .no-js .s-home {
     background: #0D0A0B;
-}
+} */
 
 
 /* ------------------------------------------------------------------- 
@@ -1844,7 +1844,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.1rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: rgb(255, 0, 255);
+    color: blue;
     position: relative;
     display: inline-block;
     line-height: 3rem;
@@ -1852,8 +1852,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::after {
-    border-bottom: 2px solid rgb(255, 0, 255);
-    border-right: 2px solid rgb(255, 0, 255);
+    border-bottom: 2px solid blue;
+    border-right: 2px solid blue;
     content: '';
     display: block;
     height: 8px;
@@ -1927,7 +1927,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #af2b2b;
+    color: blue;
     right: 3.6rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -1953,7 +1953,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     -ms-transform: scale(1);
     transform: scale(1);
 }
-
 
 /* animate .home-content__main
  * ------------------------------------------------------------------- */
@@ -2240,7 +2239,7 @@ html.no-csstransitions .home-content__main {
 .timeline__block {
     position: relative;
     padding-left: 8rem;
-    min-height: 28.8rem;
+    min-height: 10.8rem;
 }
 
 .timeline__bullet {
